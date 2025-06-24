@@ -51,6 +51,8 @@ return {
         },
       },
     }
+    vim.keymap.set("n", "<F7>", "<Cmd>BufferLineMovePrev<CR>", { desc = "Буфер влево", noremap = true, silent = true })
+    vim.keymap.set("n", "<F8>", "<Cmd>BufferLineMoveNext<CR>", { desc = "Буфер вправо", noremap = true, silent = true })
   end,
 }
 
