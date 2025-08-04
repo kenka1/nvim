@@ -25,4 +25,5 @@ require('lazy').setup({
     require 'plugins.indent-blankline',
     require 'plugins.misc',
     require 'plugins.ray_x_lsp_signature',
+    require 'plugins.nvim_comment',
 })
