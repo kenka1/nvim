@@ -1,6 +1,6 @@
 vim.keymap.set("n", "<Tab>", ":bnext<CR>", { silent = true })  -- Next buffer
 vim.keymap.set("n", "<S-Tab>", ":bprevious<CR>", { silent = true })  -- Previous buffer
-vim.keymap.set('n', '<C-x>', ':bdelete!<CR>', opts) -- close buffer
+vim.keymap.set('n', '<C-x>', ':Bdelete<CR>', opts)
 vim.keymap.set('n', '<C-b>', '<cmd> enew <CR>', opts) -- new buffer
 vim.api.nvim_set_keymap('n', '<C-Up>', '<C-U>', { noremap = true, silent = true }) -- move half of page up
 vim.api.nvim_set_keymap('n', '<C-Down>', '<C-D>', { noremap = true, silent = true }) -- move hald of page dowb
